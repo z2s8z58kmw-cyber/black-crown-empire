@@ -1,80 +1,204 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>BLACK CROWN EMPIRE LLC | Computers & Gaming</title>
-<meta name="description" content="BLACK CROWN EMPIRE LLC offers computer and gaming products, PC accessories, custom PC builds, keyboards, mice, headsets, storage, and more.">
-<style>
-*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#090b10;color:#f7f7f7;line-height:1.6}
-header{padding:70px 22px;text-align:center;background:linear-gradient(135deg,#050505,#171b28)}
-.crown{font-size:54px} h1{margin:8px 0;font-size:clamp(32px,8vw,62px);letter-spacing:1px}
-.tag{color:#c7cbd5;font-size:20px}.btn{display:inline-block;margin-top:18px;padding:13px 22px;border-radius:10px;background:#fff;color:#090b10;text-decoration:none;font-weight:bold}
-main{max-width:1200px;margin:auto;padding:35px 20px} h2{font-size:30px;margin-top:25px}
-.catalog-wrap{margin:26px 0 34px;background:#0d1018;border:1px solid #292f3d;border-radius:18px;padding:12px;box-shadow:0 0 35px rgba(132,0,255,.16)}
-.catalog-wrap img{display:block;width:100%;height:auto;border-radius:12px}
-.catalog-caption{text-align:center;color:#b7bdc9;margin:10px 8px 2px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
-.card{background:#151923;border:1px solid #292f3d;border-radius:14px;padding:20px}
-.card h3{margin-top:0}.muted{color:#b7bdc9}
-.contact{margin-top:35px;padding:25px;background:#151923;border-radius:14px}
-.policy{margin-top:25px;padding:25px;background:#10141d;border:1px solid #292f3d;border-radius:14px}.policy h3{margin-top:0}.policy-nav{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.policy-nav a{padding:9px 13px;background:#151923;border:1px solid #292f3d;border-radius:9px;text-decoration:none} a{color:#fff} footer{text-align:center;color:#8f96a5;padding:30px 15px;border-top:1px solid #222834}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BLACK CROWN EMPIRE LLC | Computer & Gaming Products</title>
+  <meta name="description" content="BLACK CROWN EMPIRE LLC computer, gaming, custom PC products and accessories.">
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      color:#f5f7fb;
+      background:#06080d;
+      line-height:1.6;
+    }
+    header{
+      text-align:center;
+      padding:28px 18px 54px;
+      background:
+        radial-gradient(circle at 50% 15%,rgba(55,68,130,.32),transparent 42%),
+        linear-gradient(180deg,#05070b 0%,#10131d 100%);
+      border-bottom:1px solid #202637;
+    }
+    .hero-logo{
+      display:block;
+      width:min(920px,100%);
+      max-height:620px;
+      object-fit:contain;
+      margin:0 auto 18px;
+      filter:drop-shadow(0 0 22px rgba(61,132,255,.25));
+    }
+    .btn{
+      display:inline-block;
+      margin-top:8px;
+      padding:15px 28px;
+      background:#fff;
+      color:#080a0f;
+      text-decoration:none;
+      font-weight:800;
+      border-radius:12px;
+      font-size:18px;
+    }
+    main{max-width:1200px;margin:auto;padding:34px 22px 70px}
+    section{margin:0 0 44px}
+    h2{font-size:34px;margin:0 0 18px}
+    h3{margin-top:0}
+    .muted{color:#b7bdcc}
+    .catalog-wrap{
+      margin:26px 0 34px;
+      background:#0d1017;
+      border:1px solid #232a3a;
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:0 14px 38px rgba(0,0,0,.28);
+    }
+    .catalog-wrap img{display:block;width:100%;height:auto}
+    .catalog-caption{text-align:center;color:#cbd2e2;padding:12px 16px 16px;margin:0}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
+    .card{
+      background:#151923;
+      border:1px solid #2a3142;
+      padding:20px;
+      border-radius:14px;
+    }
+    .card p{margin-bottom:0;color:#b9c0d0}
+    .policy-nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin:18px 0 22px;
+    }
+    .policy-nav a{
+      color:#fff;
+      text-decoration:none;
+      border:1px solid #353e54;
+      background:#151a25;
+      border-radius:999px;
+      padding:9px 14px;
+    }
+    .policy{
+      margin-top:18px;
+      padding:22px;
+      background:#11151e;
+      border:1px solid #262e40;
+      border-radius:14px;
+    }
+    .contact{
+      margin-top:35px;
+      padding:25px;
+      background:#11151e;
+      border:1px solid #262e40;
+      border-radius:14px;
+    }
+    a{color:#8ec5ff}
+    footer{
+      text-align:center;
+      color:#8f97a8;
+      border-top:1px solid #1d2330;
+      padding:28px 20px 42px;
+    }
+    @media(max-width:600px){
+      header{padding:18px 12px 42px}
+      .hero-logo{width:100%;margin-bottom:12px}
+      main{padding:28px 18px 56px}
+      h2{font-size:29px}
+      .btn{width:100%;max-width:330px}
+    }
+  </style>
 </head>
 <body>
-<header>
-<div class="crown">♛</div>
-<h1>BLACK CROWN EMPIRE LLC</h1>
-<div class="tag">Computer • Gaming • Custom PC Products</div>
-<a class="btn" href="#products">View Our Products</a>
-</header>
-<main>
-<section>
-<h2>About Us</h2>
-<p class="muted">BLACK CROWN EMPIRE LLC provides computer and gaming products for customers looking to upgrade, customize, or build their setup.</p>
-</section>
-<section id="products">
-<h2>Computer & Gaming Products</h2>
-<div class="catalog-wrap">
-<img src="black-crown-gaming-catalog.png" alt="BLACK CROWN EMPIRE gaming catalog featuring custom PCs, graphics cards, gaming accessories, RGB lighting, desks, chairs, headsets and more">
-<p class="catalog-caption">Custom PCs • PC Components • Gaming Gear • RGB Accessories • Streaming Equipment • More</p>
-</div>
-<div class="grid">
-<div class="card"><h3>Custom PC Builds</h3><p>Custom-built gaming and desktop PCs configured around your needs and budget.</p></div>
-<div class="card"><h3>PC Components</h3><p>Cases, storage, memory, cooling, power supplies, graphics and other computer components.</p></div>
-<div class="card"><h3>Gaming Accessories</h3><p>Gaming keyboards, mice, headsets, mouse pads and other setup accessories.</p></div>
-<div class="card"><h3>Storage & Accessories</h3><p>Computer storage and useful accessories for everyday PC and gaming setups.</p></div>
-</div>
-</section>
-<section>
-<h2>Ordering</h2>
-<p class="muted">Contact BLACK CROWN EMPIRE LLC for product availability, custom PC inquiries, pricing, and order information.</p>
-</section>
-<section id="policies">
-<h2>Store Policies</h2>
-<p class="muted">Please review these policies before placing an order with BLACK CROWN EMPIRE LLC.</p>
-<div class="policy-nav"><a href="#refunds">Refund Policy</a><a href="#shipping">Shipping & Delivery</a><a href="#terms">Terms & Conditions</a><a href="#contact">Contact Us</a></div>
-<div class="policy" id="refunds"><h3>Refund & Return Policy</h3>
-<p>Customers should contact BLACK CROWN EMPIRE LLC before returning any product or requesting a refund. Return or refund eligibility depends on the product, its condition, and the circumstances of the order. Products should not be returned without first receiving return instructions from us.</p>
-<p>Custom-built PCs, specially ordered components, personalized configurations, and deposits used toward custom work may have different cancellation or refund terms because parts or labor may be committed specifically to the customer's order. Any special terms for a custom order will be disclosed on the applicable invoice or customer agreement.</p>
-<p>If an item arrives damaged, incorrect, or has another order issue, contact us promptly with the order information so we can review the matter and provide instructions.</p></div>
-<div class="policy" id="shipping"><h3>Shipping & Delivery Policy</h3>
-<p>Shipping, local delivery, or pickup arrangements depend on the product and the customer's order. Available delivery methods, applicable shipping charges, and estimated timing will be communicated before or at the time the order is finalized.</p>
-<p>Custom PC build and special-order completion times vary based on component availability, configuration, testing, and delivery requirements. Any estimated completion or delivery date is an estimate unless otherwise stated in writing.</p>
-<p>When tracking is available for a shipped order, the tracking information will be provided to the customer. Customers are responsible for providing accurate shipping and contact information.</p></div>
-<div class="policy" id="terms"><h3>Terms & Conditions</h3>
-<p>By placing an order with BLACK CROWN EMPIRE LLC, the customer agrees to pay the prices and charges shown on the applicable invoice, payment request, or written order agreement. Product availability and pricing are subject to confirmation before an order is finalized.</p>
-<p>For custom PC builds, the final specifications, total price, deposit, remaining balance, and any special order terms should be documented on the customer's invoice or written agreement. Work or component purchasing may begin after an agreed deposit or payment is received.</p>
-<p>Customers should review their order details before payment and contact us promptly if a correction is needed. Manufacturer warranties, when applicable, remain subject to the manufacturer's own terms. These website terms do not limit any rights a customer may have under applicable law.</p></div>
-</section>
-<section class="contact" id="contact">
-<h2>Contact Us</h2>
-<p><strong>BLACK CROWN EMPIRE LLC</strong></p>
-<p>For product questions, custom PC inquiries, order support, returns, refunds, shipping, or delivery questions, contact us:</p>
-<p>Phone: <a href="tel:+19126610750">912-661-0750</a><br>
-Email: <a href="mailto:dee252qb@icloud.com">dee252qb@icloud.com</a></p>
-</section>
-</main>
-<footer>© 2026 BLACK CROWN EMPIRE LLC. All rights reserved.</footer>
+  <header>
+    <img class="hero-logo" src="black-crown-logo.png" alt="BLACK CROWN EMPIRE LLC logo">
+    <a class="btn" href="#products">View Our Products</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p class="muted">BLACK CROWN EMPIRE LLC provides computer and gaming products for customers looking to upgrade, customize, or build their setup.</p>
+    </section>
+
+    <section id="products">
+      <h2>Computer &amp; Gaming Products</h2>
+
+      <div class="catalog-wrap">
+        <img src="black-crown-gaming-catalog.png" alt="BLACK CROWN EMPIRE LLC gaming product catalog">
+        <p class="catalog-caption">Custom PCs • PC Components • Gaming Accessories • Storage &amp; Accessories</p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Custom PC Builds</h3>
+          <p>Custom gaming and performance computers built around your preferred style, parts, and budget.</p>
+        </div>
+        <div class="card">
+          <h3>PC Components</h3>
+          <p>Graphics cards, RAM, cooling, cases, storage, power supplies, and upgrade parts.</p>
+        </div>
+        <div class="card">
+          <h3>Gaming Accessories</h3>
+          <p>Keyboards, mice, headsets, microphones, controllers, monitors, webcams, speakers, and mouse pads.</p>
+        </div>
+        <div class="card">
+          <h3>Storage &amp; Accessories</h3>
+          <p>Gaming desks, chairs, RGB lighting, fans, storage options, and setup accessories.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Ordering</h2>
+      <p class="muted">Contact BLACK CROWN EMPIRE LLC for product questions, availability, custom PC inquiries, quotes, and ordering.</p>
+    </section>
+
+    <section id="policies">
+      <h2>Store Policies</h2>
+      <p class="muted">Please review these policies before placing an order.</p>
+
+      <div class="policy-nav">
+        <a href="#refunds">Refunds</a>
+        <a href="#shipping">Shipping &amp; Delivery</a>
+        <a href="#terms">Terms &amp; Conditions</a>
+      </div>
+
+      <div class="policy" id="refunds">
+        <h3>Refund Policy</h3>
+        <p>Customers should contact BLACK CROWN EMPIRE LLC as soon as possible if there is an issue with an order.</p>
+        <p>Custom-built PCs, specially ordered components, personalized items, and deposits may be subject to special refund or cancellation conditions once work or ordering has begun.</p>
+        <p>If an item arrives damaged, incorrect, or defective, please contact us promptly with the order details and supporting photos when applicable.</p>
+      </div>
+
+      <div class="policy" id="shipping">
+        <h3>Shipping &amp; Delivery</h3>
+        <p>Shipping, local delivery, or pickup availability may vary by product and customer location.</p>
+        <p>Custom PC build and special-order completion times depend on parts availability, customization, testing, and order volume.</p>
+        <p>When tracking is available for a shipped order, tracking information will be provided to the customer.</p>
+      </div>
+
+      <div class="policy" id="terms">
+        <h3>Terms &amp; Conditions</h3>
+        <p>By placing an order with BLACK CROWN EMPIRE LLC, customers agree to provide accurate order, contact, and delivery information.</p>
+        <p>For custom PC builds, the final specifications, pricing, deposit requirements, and estimated completion time should be confirmed before work begins.</p>
+        <p>Customers should review their order details before submitting payment.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>BLACK CROWN EMPIRE LLC</strong></p>
+      <p>For product questions, custom PC inquiries, quotes, and ordering:</p>
+      <p>Phone: <a href="tel:+19126610750">912-661-0750</a><br>
+      Email: <a href="mailto:dee252qb@icloud.com">dee252qb@icloud.com</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 BLACK CROWN EMPIRE LLC. All rights reserved.</footer>
 </body>
 </html>
