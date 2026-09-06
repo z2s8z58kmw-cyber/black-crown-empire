@@ -69,6 +69,43 @@
       border-radius:14px;
     }
     .card p{margin-bottom:0;color:#b9c0d0}
+
+    .category-block{
+      margin:30px 0 40px;
+    }
+    .category-block h3{
+      font-size:26px;
+      margin:0 0 14px;
+    }
+    .product-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+      gap:14px;
+    }
+    .product-card{
+      background:#11151e;
+      border:1px solid #2a3142;
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow:0 10px 24px rgba(0,0,0,.22);
+    }
+    .product-card img{
+      display:block;
+      width:100%;
+      height:auto;
+      aspect-ratio:1/1.15;
+      object-fit:cover;
+      background:#090c12;
+    }
+    .category-banner{
+      width:100%;
+      display:block;
+      border-radius:16px;
+      border:1px solid #2a3142;
+      margin:14px 0 18px;
+      background:#090c12;
+    }
+
     .custom-pc-video{
       display:block;
       width:100%;
@@ -142,22 +179,65 @@
         <p class="catalog-caption">Custom PCs • PC Components • Gaming Accessories • Storage &amp; Accessories</p>
       </div>
 
-      <div class="grid">
-        <div class="card">
-          <h3>Custom PC Builds</h3>
-          <p>Custom gaming and performance computers built around your preferred style, parts, and budget.</p>
+      <div class="category-block">
+        <h3>Custom PC Builds</h3>
+        <img class="category-banner" src="custom-pc-builds.png" alt="Custom PC build options and prices">
+        <div class="product-grid">
+          <div class="product-card"><img src="custom-pc-entry-gaming-pc-599.png" alt="Entry gaming PC $599"></div>
+          <div class="product-card"><img src="custom-pc-performance-pc-999.png" alt="Performance PC $999"></div>
+          <div class="product-card"><img src="custom-pc-elite-gaming-pc-1499.png" alt="Elite gaming PC $1,499"></div>
+          <div class="product-card"><img src="custom-pc-premium-custom-1999-plus.png" alt="Premium custom PC $1,999 and up"></div>
         </div>
-        <div class="card">
-          <h3>PC Components</h3>
-          <p>Graphics cards, RAM, cooling, cases, storage, power supplies, and upgrade parts.</p>
+      </div>
+
+      <div class="category-block">
+        <h3>PC Components</h3>
+        <img class="category-banner" src="pc-components.png" alt="PC components and starting prices">
+        <div class="product-grid">
+          <div class="product-card"><img src="component-graphics-cards-from-349.png" alt="Graphics cards from $349"></div>
+          <div class="product-card"><img src="component-ram-from-49.png" alt="RAM from $49"></div>
+          <div class="product-card"><img src="component-motherboards-from-99.png" alt="Motherboards from $99"></div>
+          <div class="product-card"><img src="component-cpu-from-129.png" alt="Processors from $129"></div>
+          <div class="product-card"><img src="component-cooling-from-59.png" alt="Cooling from $59"></div>
+          <div class="product-card"><img src="component-power-supplies-from-69.png" alt="Power supplies from $69"></div>
+          <div class="product-card"><img src="component-storage-from-49.png" alt="Storage from $49"></div>
+          <div class="product-card"><img src="component-pc-cases-from-69.png" alt="PC cases from $69"></div>
+          <div class="product-card"><img src="component-case-fans-from-14.png" alt="Case fans from $14"></div>
+          <div class="product-card"><img src="component-thermal-paste-from-9.png" alt="Thermal paste from $9"></div>
         </div>
-        <div class="card">
-          <h3>Gaming Accessories</h3>
-          <p>Keyboards, mice, headsets, microphones, controllers, monitors, webcams, speakers, and mouse pads.</p>
+      </div>
+
+      <div class="category-block">
+        <h3>Gaming Accessories</h3>
+        <img class="category-banner" src="gaming-accessories.png" alt="Gaming accessories and starting prices">
+        <div class="product-grid">
+          <div class="product-card"><img src="gaming-keyboards-from-49.png" alt="Gaming keyboards from $49"></div>
+          <div class="product-card"><img src="gaming-mice-from-29.png" alt="Gaming mice from $29"></div>
+          <div class="product-card"><img src="gaming-headsets-from-49.png" alt="Gaming headsets from $49"></div>
+          <div class="product-card"><img src="gaming-microphones-from-59.png" alt="Gaming microphones from $59"></div>
+          <div class="product-card"><img src="gaming-webcams-from-49.png" alt="Gaming webcams from $49"></div>
+          <div class="product-card"><img src="gaming-controllers-from-49.png" alt="Controllers from $49"></div>
+          <div class="product-card"><img src="gaming-speakers-from-49.png" alt="Speakers from $49"></div>
+          <div class="product-card"><img src="gaming-mouse-pads-from-19.png" alt="Mouse pads from $19"></div>
+          <div class="product-card"><img src="gaming-stream-decks-from-99.png" alt="Stream decks from $99"></div>
+          <div class="product-card"><img src="gaming-vr-accessories-from-299.png" alt="VR accessories from $299"></div>
         </div>
-        <div class="card">
-          <h3>Storage &amp; Accessories</h3>
-          <p>Gaming desks, chairs, RGB lighting, fans, storage options, and setup accessories.</p>
+      </div>
+
+      <div class="category-block">
+        <h3>Storage &amp; Accessories</h3>
+        <img class="category-banner" src="storage-accessories.png" alt="Storage and setup accessories with starting prices">
+        <div class="product-grid">
+          <div class="product-card"><img src="setup-gaming-desks-from-129.png" alt="Gaming desks from $129"></div>
+          <div class="product-card"><img src="setup-gaming-chairs-from-149.png" alt="Gaming chairs from $149"></div>
+          <div class="product-card"><img src="setup-rgb-lighting-from-19.png" alt="RGB lighting from $19"></div>
+          <div class="product-card"><img src="setup-desk-accessories-from-19.png" alt="Desk accessories from $19"></div>
+          <div class="product-card"><img src="setup-storage-options-from-49.png" alt="Storage options from $49"></div>
+          <div class="product-card"><img src="setup-cable-management-from-19.png" alt="Cable management from $19"></div>
+          <div class="product-card"><img src="setup-monitor-mounts-from-29.png" alt="Monitor mounts from $29"></div>
+          <div class="product-card"><img src="setup-power-surge-protection-from-29.png" alt="Power and surge protection from $29"></div>
+          <div class="product-card"><img src="setup-cleaning-kits-from-14.png" alt="Cleaning kits from $14"></div>
+          <div class="product-card"><img src="setup-accessories-from-19.png" alt="Setup accessories from $19"></div>
         </div>
       </div>
     </section>
